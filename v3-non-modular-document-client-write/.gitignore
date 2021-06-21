@@ -1,0 +1,21 @@
+# IDE
+.vscode
+
+# Dependencies
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+vendor
+
+# Artefacts
+dist
+
+# Code Coverage
+coverage
+
+# Misc
+.DS_Store
+.history
